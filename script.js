@@ -1,6 +1,6 @@
 function game() {
     
-const playerSelection = (prompt('Typer rock,paper or scissor')).toLowerCase();
+const playerSelection = (prompt('Type rock, paper or scissor')).toLowerCase();
 const computerSelection = computerPlay();
 
 function computerPlay(){
