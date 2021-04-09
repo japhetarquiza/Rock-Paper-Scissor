@@ -44,9 +44,7 @@ function playRound(playerSelection,computerSelection){
     }
 }
 
-console.log(playRound(playerSelection,computerSelection)); }
-
-//game();
+alert(playRound(playerSelection,computerSelection)); }
 
 for(let i=1;i<=5;i++){
 game();
