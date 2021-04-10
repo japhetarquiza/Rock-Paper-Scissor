@@ -18,9 +18,6 @@ function computerPlay(){
     
 }
 
-console.log(computerSelection);
-
-
 function playRound(playerSelection,computerSelection){
 
         if (playerSelection=='paper' && computerSelection=='scissor'){
@@ -44,7 +41,8 @@ function playRound(playerSelection,computerSelection){
     }
 }
 
-alert(playRound(playerSelection,computerSelection)); }
+alert(playRound(playerSelection,computerSelection)); 
+console.log(playerSelection+ ' vs '+ computerSelection +' : '+playRound(playerSelection,computerSelection))}
 
 for(let i=1;i<=5;i++){
 game();
